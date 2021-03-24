@@ -1,0 +1,13 @@
+body{
+margin: 0;
+  }
+#contaier{
+	width: 100vw; /* view */
+	height: 100vh; /* view */
+	background: url('../img/fundo1.jpg');
+}
+ 
+      
+
+
+
