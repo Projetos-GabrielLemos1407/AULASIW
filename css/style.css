@@ -1,0 +1,115 @@
+body{
+
+background-color: #E6E6FA;
+text-align: center;
+
+}
+
+h1,h2,{
+
+color: #2F4F4F;
+
+}
+
+p{
+	
+font-weight: bolder;
+font-size: 20px;
+text-align: justify;
+color: #8FBC8F;
+   
+
+}
+
+figure{
+
+text-align: center;
+border-style: 5px 
+justify-content: center;
+
+}
+
+p{
+text-align: center;
+color:#8FBC8F;
+
+}
+
+body{ 
+
+background-image:url("..img/fundojs.jpeg");
+background-repeat: round;
+
+}
+
+.container{
+
+width: 80%;
+margin-right: auto;
+margin-left: auto;
+text-align: center;
+
+}
+
+header,footer{
+
+ background-color: rgba(99,164,255,0.5);
+ padding: 3%;
+
+}
+
+
+h1,h2,{
+text-align: center;
+color: #fff;
+
+}
+
+p{
+
+text-align: center;
+color: #fff;
+
+}
+
+h1,h2{
+
+text-align: center;	
+color: #fff;
+
+}
+
+table {
+
+font-family: arial, sans-serif;
+border-collapse: collapse;
+ width: 100%;
+color: #fff;
+
+}
+
+td, th {
+ border: 1px solid #dddddd;
+ text-align: left;
+ padding: 10px;
+ color: #fff;
+ 
+}
+
+tr:nth-child(even) {
+ background-color: #F08080;
+
+}
+ 
+.centro{
+text-align: center;
+
+}
+
+
+
+
+
+
+
+
