@@ -1,3 +1,3 @@
-https://github.com/Projetos-GabrielLemos1407/AULASIW.git
+ https://projetos-gabriellemos1407.github.io/AULASIW/
 
 Projetos IW
