@@ -1,13 +1,18 @@
-body{
 
-background-color: #E6E6FA;
-text-align: center;
+html{
+scroll-behavior: smooth;
+
+}
+
+body{
+background-color: #9FB6CD;
+
 
 }
 
 h1,h2,{
 
-color: #2F4F4F;
+color: #008B8B;
 
 }
 
@@ -30,52 +35,112 @@ justify-content: center;
 }
 
 p{
-text-align: center;
-color:#8FBC8F;
+color: #fff;
+font-weight: bolder;
+font-size: 20px;
+text-align: justify;
+margin-top: 2%;
+margin-bottom: 2%;
 
 }
 
-body{ 
-
-background-image:url("..img/fundojs.jpeg");
-background-repeat: round;
+ul i, ol li{
+text-decoration: underline;
+color: #fff;
+font-size: 1.2em;
+font-weight: bolder;
+line-height: 1.5;
 
 }
+
+body{
+ background-image: url(...img/fundojs.jpg);
+ background-repeat: round;
+
+}
+
 
 .container{
-
+margin-top: 10%;
 width: 80%;
 margin-right: auto;
 margin-left: auto;
-text-align: center;
+position: relative;
+
 
 }
+
 
 header,footer{
+background-color: rgba(99,164,255);
+padding: 3%;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+font-size: 1.5em;
+line-height: 1.5;
 
- background-color: rgba(99,164,255,0.5);
- padding: 3%;
+}
+
+.fixo{
+position: fixed;
+top: 0;
+right: 0;
+left: 0;
+z-index: 1030;
 
 }
 
 
-h1,h2,{
+h1{
+font-size: 2em;
+	
+}
+
+h2{
+font-size: 2em;
+	
+}
+
+
+text-align: center;
+color: #548B54;
+
+}
+
+.imgtexto{
+border: 5px dashed #fff;
+width: 70%;
+
+
+}
+
+
+.titulos{
 text-align: center;
 color: #fff;
+font-weight: bolder;
+line-height: 2;
+
 
 }
 
 p{
-
-text-align: center;
 color: #fff;
+font-weight: bolder;
+font-size: 20px;
+text-align: justify;
+margin-top: 2%;
+margin-bottom: 2%;
+
 
 }
 
 h1,h2{
 
 text-align: center;	
-color: #fff;
+color: #008B8B;
 
 }
 
@@ -83,16 +148,22 @@ table {
 
 font-family: arial, sans-serif;
 border-collapse: collapse;
- width: 100%;
+width: 100%;
 color: #fff;
+margin-right: auto;
+margin-left: auto;
+
+
+}
 
 }
 
 td, th {
  border: 1px solid #dddddd;
- text-align: left;
  padding: 10px;
+ text-align: left;
  color: #fff;
+ font-size: 1.2em;
  
 }
 
@@ -100,11 +171,16 @@ tr:nth-child(even) {
  background-color: #F08080;
 
 }
- 
+
 .centro{
 text-align: center;
 
 }
+
+@media screen and (min-width: 600px){
+
+}
+
 
 
 
